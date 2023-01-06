@@ -1,0 +1,304 @@
+/* GENERAL */
+/* GENERAL */
+/* GENERAL */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.flexable {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+}
+
+h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 110px;
+    line-height: 100%;
+    letter-spacing: 0.05em;
+    color: #F37F34;
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 110%;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #F37F34;
+}
+
+h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #673B19;
+}
+
+p,
+li {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #774E2E;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    letter-spacing: 0.01em;
+    color: #774E2E;
+}
+
+.brown-text {
+    color: #774E2E;
+}
+
+.container {
+    max-width: 1920px;
+    background-color: #F5F5F5;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.block {
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* HEADER */
+/* HEADER */
+/* HEADER */
+
+header {
+    justify-content: space-between;
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+}
+
+.logo {
+    width: 79px;
+    height: 79px;
+}
+
+.links-part {
+    margin-top: 29px;
+}
+
+a:first-child {
+    margin-right: 50px;
+}
+
+/* FIRST SECTION */
+/* FIRST SECTION */
+/* FIRST SECTION */
+
+.first-section {
+    padding: 100px 0 150px 0;
+}
+
+.text-part {
+    width: 50%;
+    min-height: 474px;
+}
+
+h1.brown-text {
+    margin-top: 24px;
+}
+
+.img-part {
+    width: 50%;
+    width: 575px;
+    height: 596px;
+    background-image: url(../img/Yummy-1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.section-text {
+    margin-top: 40px;
+}
+
+button {
+    width: 343px;
+    height: 69px;
+    background: #774E2E;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 50px;
+}
+
+/* SECOND SECTION */
+/* SECOND SECTION */
+/* SECOND SECTION */
+
+.fav {
+    text-align: center;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.second-section {
+    background: #FFF9EA;
+    padding: 150px 0 120px 0;
+}
+
+.sweeties {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.sweeties {
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 370px;
+    height: 462px;
+    background: white;
+    margin-bottom: 30px;
+}
+
+.cards-img {
+    height: 248px;
+    width: 370px;
+}
+
+.candy1 {
+    background-image: url(../img/mak.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.candy2 {
+    background-image: url(../img/slyvky.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.candy3 {
+    background-image: url(../img/lishchyna.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.name {
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.description {
+    width: 330px;
+    text-align: center;
+    margin-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* THIRD SECTION */
+/* THIRD SECTION */
+/* THIRD SECTION */
+
+.third-section {
+    padding: 150px 0;
+}
+
+.text-part2 {
+    width: 50%;
+    min-height: 575px;
+}
+
+.img-part2 {
+    width: 50%;
+    width: 575px;
+    height: 722px;
+    background-image: url(../img/Yummy-2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.adv {
+    margin-top: 30px;
+}
+
+.adv-title {
+    margin-top: 60px;
+}
+
+.adv-list {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+
+/* FOOTER */
+/* FOOTER */
+/* FOOTER */
+
+footer {
+    height: 179px;
+    background: #774E2E;
+}
+
+.footer-content {
+    height: 100%;
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-logo {
+    height: 99px;
+    width: 99px;
+}
+
+.footer-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 130%;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
